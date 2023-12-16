@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ШИК</string>
+
+    <string-array name="ras_array">
+        <item>Понедельник с 8:00-20:00</item>
+        <item>Вторник с 8:00-20:00</item>
+        <item>Среда с 8:00-20:00</item>
+        <item>Четверг с 8:00-20:00</item>
+        <item>Пятница с 8:00-20:00</item>
+        <item>Суббота с 9:00-18:00</item>
+        <item>Воскресенье с 9:00-18:00</item>
+        <item></item>
+    </string-array>
+
+</resources>

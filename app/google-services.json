@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "655879332347",
+    "project_id": "shik2-8aa1a",
+    "storage_bucket": "shik2-8aa1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655879332347:android:d58cdd6a7d64434e086b5e",
+        "android_client_info": {
+          "package_name": "com.example.shik2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMxCrxbYLgtYD0mIDzTnNr4yQYNwTWFrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

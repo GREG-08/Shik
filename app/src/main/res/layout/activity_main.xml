@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:weightSum="40"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Шиномонтаж легко и просто! "
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textColor="@color/Light_gray"
+            android:letterSpacing="0.08"
+            android:textStyle="bold"
+            android:layout_weight="5">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/logout"
+            android:background="@color/white"
+            android:src="@drawable/icons8"
+            android:textColor="@color/white">
+
+        </ImageButton>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите марку автомобиля:"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:letterSpacing="0.08"
+        android:textColor="@color/Light_gray"
+        android:textStyle="bold"
+        android:layout_weight="5">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@color/black"
+        android:padding="10dp"
+        android:hint="Марка"
+        android:textColorHint="@color/Light_gray"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="5dp"
+        android:id="@+id/marka"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите модель автомобиля:"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/Light_gray"
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@color/black"
+        android:padding="10dp"
+        android:hint="Модель"
+        android:textColorHint="@color/Light_gray"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:elevation="5dp"
+        android:id="@+id/model"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выберете услугу:"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/Light_gray"
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+
+
+    <Spinner
+        android:id="@+id/consultation_deseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:dropDownSelector="@color/my_primary"
+        android:backgroundTint="@color/my_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="89dp"/>
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Расписание работы мастерской"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/Light_gray"
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+    <Spinner
+        android:id="@+id/ras_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:dropDownSelector="@color/my_primary"
+        android:backgroundTint="@color/my_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="89dp"/>
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите дату и время в формате хх/хх/хх. хх:хх"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/Light_gray"
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@color/black"
+        android:padding="10dp"
+        android:hint="Дата и время"
+        android:inputType="text"
+        android:textColorHint="@color/Light_gray"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner"
+        android:elevation="5dp"
+        android:id="@+id/data"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Дополнительные комментарии:"
+        android:gravity="center"
+        android:textColor="@color/Light_gray"
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@color/black"
+        android:padding="10dp"
+        android:hint="Комментарий"
+        android:inputType="text"
+        android:textColorHint="@color/Light_gray"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner"
+        android:elevation="5dp"
+        android:id="@+id/time"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:text="Оформить запись"
+        android:textColor="@color/white"
+        android:onClick="onclick"
+        android:id="@+id/onclickSave"
+        android:layout_margin="30dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Для выхода нажмите 'Назад' "
+        android:textColor="@color/Light_gray"
+        android:textSize="18dp"
+        android:gravity="center"
+
+        android:letterSpacing="0.08"
+        android:textStyle="bold"
+        android:layout_weight="5"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="346dp"
+        android:layout_height="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_record" />
+
+
+
+
+</LinearLayout>
